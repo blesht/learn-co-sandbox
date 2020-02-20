@@ -19,5 +19,5 @@ results = {
     }
   ]
 }
-odds_and_evens = [1, 3, 2, 18, 5, 10, 24]
-p odds_and_evens.select { |x| x if x%2==0}
+odds_evens = [2,3,2,18,10,24]
+p odds_evens.find {|x| x if x%2==0}
