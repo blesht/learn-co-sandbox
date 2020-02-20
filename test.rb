@@ -21,3 +21,5 @@ results = {
 }
 odds_evens = [2,3,2,18,10,24]
 p odds_evens.find {|x| x if x%2!=0}
+
+p odds_evens.find {|x| x.odd?}
