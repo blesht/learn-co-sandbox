@@ -19,3 +19,6 @@ results = {
     }
   ]
 }
+lunch_menu = ["pizza", "sandwich", "sushi", "soup", "salad"]
+
+p lunch_menu.map{|item| "#{item}!" }
