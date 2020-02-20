@@ -21,4 +21,4 @@ results = {
 }
 famous_cats = ["Maru", "Lil Bub", "Grumpy Cat"]
 
-p famous_cats.include?("maru")
+p famous_cats.include?("Maru")
