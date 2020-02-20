@@ -19,7 +19,6 @@ results = {
     }
   ]
 }
-odds_evens = [2,3,2,18,10,24]
-p odds_evens.find {|x| x if x%2!=0}
+famous_cats = ["Maru", "Lil Bub", "Grumpy Cat"]
 
-p odds_evens.find {|x| x.odd?}
+p famous_cats.include?("maru")
