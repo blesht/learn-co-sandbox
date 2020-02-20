@@ -19,6 +19,3 @@ results = {
     }
   ]
 }
-nums = [1, 2, 3, 4]
-
-p nums.collect {|n| n * n }
