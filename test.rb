@@ -19,6 +19,6 @@ results = {
     }
   ]
 }
-lunch_menu = ["pizza", "sandwich", "sushi", "soup", "salad"]
+nums = [1, 2, 3, 4]
 
-p lunch_menu.map{|item| "#{item}!" }
+p nums.collect {|n| n * n }
